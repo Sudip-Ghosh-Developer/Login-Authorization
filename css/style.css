@@ -1,0 +1,103 @@
+body{
+    background: url('/Project1/img/bg2.jpg') ; 
+    
+    
+margin:0%;
+padding: 0%;
+}
+.header{
+    
+    color: rgb(70, 153, 208);
+    
+    
+}
+.left{
+
+display: inline-block;
+position: absolute;
+left: 100px;
+top: 10px;
+}
+.mid{
+border: 2px solid rebeccapurple;
+background-color: #fceaf0;
+border-radius: 50px;
+margin: 8px auto;
+display: block;
+width: 40%;
+}
+.right{
+ 
+ display: inline-block;
+ position: absolute;
+ right: 12px;
+ top: 1px;
+ text-align: center;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    text-align: center;
+    margin:2px 25px;
+    padding: 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+    color: rgb(214, 200, 250);
+}
+.left img{
+    width: 40px;
+    margin: -3px 66px;
+    color: aliceblue;
+}
+.left h3{
+    font-size: 20px;
+    color: #a30c42;
+    margin: -3px 1px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.right input{
+    border-radius: 20px;
+    background-color: rgb(247, 239, 232);
+    margin: 25px 83px;
+}
+.container{
+    border: 2px solid rgb(102, 119, 3);
+    border-radius: 30px;
+    background-blend-mode: soft-light;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    margin: 100px 171px;
+}
+
+.form-group{
+    /* border: 2px solid rebeccapurple; */
+    padding: 9px 143px;
+    margin: 2px 2px;
+}
+.form-group input{
+    margin: auto;
+    border-radius: 30px;
+    width: 450px;
+    height: 25px;
+    text-align: center;
+}
+.container h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: auto;
+  text-align: center;
+}
+.btn{
+    border-radius: 30px;
+    background-color: rgb(238, 253, 200);
+    width: 180px;
+    height: 24px;
+    border: none;
+    padding: 2px 52px;
+    margin:23px 304px;
+    font-size: 20px;
+}
